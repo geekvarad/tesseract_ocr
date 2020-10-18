@@ -12,7 +12,7 @@ import io.flutter.plugin.common.PluginRegistry.Registrar;
 /** TesseractOcrPlugin */
 public class TesseractOcrPlugin implements MethodCallHandler {
 
-  private static final int DEFAULT_PAGE_SEG_MODE = TessBaseAPI.PageSegMode.PSM_SINGLE_BLOCK;
+  private static final int DEFAULT_PAGE_SEG_MODE = TessBaseAPI.PageSegMode.PSM_AUTO_OSD;
 
   /** Plugin registration. */
   public static void registerWith(Registrar registrar) {
